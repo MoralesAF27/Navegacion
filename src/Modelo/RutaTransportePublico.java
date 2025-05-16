@@ -12,7 +12,7 @@ package Modelo;
 public class RutaTransportePublico implements EstrategiaRuta {
     @Override
     public void calcularRuta(String origen, String destino) {
-        System.out.println("→ Calculando ruta en transporte público de " + origen + " a " + destino);
+        System.out.println(" Calculando ruta desde " + origen + " hasta " + destino + " haciendo el recorrido en transporte publico");
     }
 }
 

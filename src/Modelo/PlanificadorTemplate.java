@@ -28,7 +28,7 @@ public abstract class PlanificadorTemplate {
     }
 
     protected void prepararDatos() {
-        System.out.println("Preparando datos de navegación...");
+        System.out.println("Buscar la mejor ruta de navegacion");
     }
 
     protected void calcularRuta() {
@@ -36,11 +36,11 @@ public abstract class PlanificadorTemplate {
     }
 
     protected void mostrarRuta() {
-        System.out.println("Mostrando ruta en el mapa...");
+        System.out.println("Mostrar la ruta en el mapa");
     }
 
     protected void iniciarNavegacion() {
-        System.out.println("Iniciando navegación hacia el destino...");
+        System.out.println("Inicio de recorrido hacia el destino seleccionado");
     }
 }
 

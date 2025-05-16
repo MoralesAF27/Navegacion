@@ -19,15 +19,15 @@ public class Main {
 
         PlanificadorTemplate planificador;
 
-        System.out.println("---- Ruta en Carretera ----");
+        System.out.println("Ruta en Carretera");
         planificador = new PlanificadorConcreto("Bogotá", "Medellín", carretera);
         planificador.planificarRuta();
 
-        System.out.println("\n---- Ruta a Pie ----");
+        System.out.println("\nRuta a Pie");
         planificador = new PlanificadorConcreto("Parque", "Biblioteca", aPie);
         planificador.planificarRuta();
 
-        System.out.println("\n---- Ruta en Transporte Público ----");
+        System.out.println("\nRuta en Transporte Público");
         planificador = new PlanificadorConcreto("Estación Norte", "Universidad", publico);
         planificador.planificarRuta();
     }

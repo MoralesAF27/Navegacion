@@ -13,7 +13,5 @@ public class PlanificadorConcreto extends PlanificadorTemplate {
     public PlanificadorConcreto(String origen, String destino, EstrategiaRuta estrategia) {
         super(origen, destino, estrategia);
     }
-
-    // Podrías sobrescribir algún método si necesitas cambiar el comportamiento por tipo de transporte
 }
 
